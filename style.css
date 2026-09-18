@@ -8,9 +8,10 @@
 body{
     color: #fff;
     background-color: hsl(228, 84%, 42%);
-    min-height: 100vh; /* Changed from height: 100vh to avoid content overflow cuts */
+    min-height: 100vh; 
      
 }
+/*styling the navigation bar*/
 nav{
     display: flex;
     align-items: center;
@@ -39,6 +40,8 @@ nav{
 #togglebtn{
     transition: all .3s;
 }
+/*styling the hero section*/
+
 .hero{
     border: 1px solid rgba(255, 255, 255, 0.3);
      max-width: 1400px;
@@ -117,6 +120,9 @@ nav{
     color: rgba(255, 255, 255, 0.8);
     font-weight: 500;
    }
+
+/*styling and positioning the overflow slide in menu*/
+
     ul.overlay-menu{
         background-color: rgba(0, 0, 0, .5);
         position: fixed;
@@ -141,21 +147,8 @@ nav{
         font-weight: 400;
     }
 
+/* Mobile Responsive */
 
-
-    .attribution{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 12px;
-        margin-bottom: 20px;
-
-    }
-    .attribution a{
-        margin-left: 10px;
-        color:pink;
-        text-decoration: none;
-    }
     @media screen and (max-width:375px) {
         .hero .parent{
         display: flex;
