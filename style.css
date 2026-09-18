@@ -149,7 +149,7 @@ nav{
 
 /* Mobile Responsive */
 
-    @media screen and (max-width:375px) {
+    @media screen and (max-width:500px) {
         .hero .parent{
         display: flex;
         flex-direction: column;
